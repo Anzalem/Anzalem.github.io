@@ -26,12 +26,48 @@ header nav a{
     color: white;
 }
 
-.educacion h2{
+section h2{
     text-align: center;
     font-size: 40px;
 }
 
-.educacion ul{
-    text-align: left;
-    
+.educacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.educacion img{
+    width: 10%;
+    padding-right: 40px;
+}
+
+.educacion p{
+    font-size: 150%;
+}
+
+.expLaboral div img{
+    width: 20%;
+}
+
+.expLaboral h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.expLaboral div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.expLaboral div p{
+    width: 40%;
+    font-size: 120%;
+}
+
+footer{
+    text-align: center;
+    font-size: 200%;
+    padding: 20px;
 }
